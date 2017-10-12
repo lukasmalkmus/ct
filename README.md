@@ -24,17 +24,17 @@ context to each one (usernames, tokens, etc.).
 ### Usage
 #### Single binary installation
 The easiest way to install *ct* is by grabbing the latest release from the
-[release page](https://github/lukasmalkmus/ct/releases)
+[release page](https://github.com/lukasmalkmus/ct/releases)
 
 #### Using `go install`
 ```bash
-go install github/lukasmalkmus/ct
+go install github.com/lukasmalkmus/ct
 ```
 
 #### Installation from source
 This project uses [dep](https://github.com/golang/dep) for vendoring.
 ```bash
-git clone https://github/lukasmalkmus/ct.git
+git clone https://github.com/lukasmalkmus/ct.git
 cd ct
 dep ensure # Install dependencies
 make # Build application (or `go install .` to install into $GOPATH)
